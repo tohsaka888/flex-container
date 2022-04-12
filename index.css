@@ -1,0 +1,108 @@
+html body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  padding: 16px;
+  /* border: 1px solid #e7e7e7; */
+}
+
+.header .daily {
+  flex: 1;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  /* border: 1px solid #e7e7e7; */
+  position: relative;
+  background-color: #fff;
+  height: 100%;
+  margin-right: 16px;
+}
+
+.header .daily > .slug {
+  position: absolute;
+  bottom: 3px;
+  font-size: 14px;
+  left: 16px;
+}
+
+.header .mission {
+  flex: 2;
+  display: flex;
+  background-color: #fff;
+  height: 20vh;
+}
+
+.header .mission > div {
+  flex: 1;
+  /* border: 1px solid #e7e7e7; */
+  align-items: center;
+  display: flex;
+}
+
+.header .mission .text-area {
+  margin-left: 50%;
+  flex-direction: column;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.header .mission .text-area div:last-child {
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  /* background: #fff; */
+  margin: 0px 16px;
+  /* border: 1px solid #e7e7e7; */
+  height: calc(80vh - 48px);
+}
+
+.container > .main {
+  flex: 2;
+  background: #fff;
+  margin-right: 16px;
+  height: 100%;
+}
+
+.container .sider {
+  flex: 1;
+}
+
+.todo-list {
+  height: 53%;
+  max-height: 53%;
+  /* border: 1px solid #e7e7e7; */
+  margin-bottom: 2%;
+  background: #fff;
+}
+
+.todo-list > div {
+  padding: 16px;
+}
+
+.application {
+  height: 45%;
+  max-height: 45%;
+  background: #fff;
+  /* border: 1px solid #e7e7e7; */
+}
+
+.application > div {
+  padding: 16px;
+}
+
+.main > div {
+  padding: 16px;
+}
